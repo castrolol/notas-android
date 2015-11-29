@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fff"
+        android:icon="@drawable/ic_filter"
+        android:title="Filtrar"
+        app:showAsAction="always">
+        <menu>
+            <group android:id="@+id/menu_mainGroup">
+                <item
+                    android:id="@+id/todas_cores"
+                    android:icon="@drawable/ic_all"
+                    android:title="Ver Todos"
+                    app:showAsAction="always"></item>
+            </group>
+
+            <item
+                android:id="@+id/color_white"
+                android:icon="@drawable/marker_white_circle"
+                android:title="Branca" />
+            <item
+                android:id="@+id/color_red"
+                android:icon="@drawable/marker_red_circle"
+                android:title="Vermelha" />
+            <item
+                android:id="@+id/color_green"
+                android:icon="@drawable/marker_green_circle"
+                android:title="Verde" />
+
+            <item
+                android:id="@+id/color_purple"
+                android:icon="@drawable/marker_purple_circle"
+                android:title="Violeta" />
+
+            <item
+                android:id="@+id/color_yellow"
+                android:icon="@drawable/marker_yellow_circle"
+                android:title="Amarela" />
+            <item
+                android:id="@+id/color_blue"
+                android:icon="@drawable/marker_blue_circle"
+                android:title="Azul" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="Buscar"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+</menu>

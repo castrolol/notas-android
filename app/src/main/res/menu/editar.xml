@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_remove"
+        android:orderInCategory="100"
+        android:title="Remover Nota"
+        android:icon="@drawable/ic_remove_white"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_item_share"
+        app:showAsAction="never"
+        android:title="Compartilhar Nota..."
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/color_pallete"
+        android:title="Mudar Cor"
+        android:icon="@drawable/ic_color_picker"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/color_white"
+                android:title="Branca"
+                android:icon="@drawable/marker_white_circle"
+                />
+            <item
+                android:id="@+id/color_red"
+                android:title="Vermelha"
+                android:icon="@drawable/marker_red_circle"
+                />
+            <item
+                android:id="@+id/color_green"
+                android:title="Verde"
+                android:icon="@drawable/marker_green_circle"
+                />
+
+            <item
+                android:id="@+id/color_purple"
+                android:title="Violeta"
+                android:icon="@drawable/marker_purple_circle"
+                />
+
+            <item
+                android:id="@+id/color_yellow"
+                android:title="Amarela"
+                android:icon="@drawable/marker_yellow_circle"
+                />
+            <item
+                android:id="@+id/color_blue"
+                android:title="Azul"
+                android:icon="@drawable/marker_blue_circle"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_accept"
+        android:orderInCategory="100"
+        android:title="Salvar Nota"
+        android:icon="@drawable/ic_accept_white"
+        app:showAsAction="always" />
+
+</menu>
