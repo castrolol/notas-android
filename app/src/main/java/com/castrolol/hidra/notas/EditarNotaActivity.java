@@ -1,20 +1,18 @@
 package com.castrolol.hidra.notas;
 
 import android.app.AlertDialog;
-import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.ShareCompat;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.ShareActionProvider;
-import android.support.v7.widget.Toolbar;
+
+import androidx.appcompat.widget.ShareActionProvider;
+import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
